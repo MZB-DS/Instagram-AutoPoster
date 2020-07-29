@@ -44,7 +44,7 @@ def mask_image(quote,author,random_five_hastags):
 
     para = textwrap.wrap(text, width=23)
     
-    # Code login to centerly align the quotes and author name and also limiting the words per line as per the length of the quote.
+    # Code logic to centerly align the quotes and author name and also limiting the words per line as per the length of the quote.
     pad=5
 
     current_h = ((image.size[0])/2)-((math.floor((len(para)/2))+1)*(font_size+pad))
