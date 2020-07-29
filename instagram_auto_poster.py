@@ -1,9 +1,7 @@
 from PIL import Image, ImageDraw, ImageFont
 import textwrap
 import math
-from tqdm import tqdm
 from instabot import Bot
-import sys
 import time
 import pandas as pd
 import random
