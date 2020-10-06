@@ -6,7 +6,7 @@ This repository contains python code for automatic image posting of the quotes. 
 2. Enter your Instagram username and password on which you want to autopost the quotes image.
 3. The default background image is the cream background image. If you want to use any other background image then download some plain HD image and give the path in the input_image.
 4. Enter the path and filename of the csv file in which we will include the quotes and respective author names. In order to get the format of the csv file, kindly refer to ```sample_quotes_author_file.csv```.
-5. The method "get_five_hastags()" fetched 5 hastags randomly from the hastag file. If you want to include number of hastags more or less than 5 then kindly replace the number with 5.
+5. The method "get_five_hastags()" fetches 5 hastags randomly from the hastag file. If you want to include number of hastags more or less than 5 then kindly replace the number with 5.
 6. Now in order to schedule the post periodically, appropritely do that using the crontab if you don't want to continuosly run the python program or else use the time.sleep() method specifying the interval time.
 7. Execute ```instagram_auto_poster.py``` as Step 6.
 
